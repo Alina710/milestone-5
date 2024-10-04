@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Shareable Link Generation
+  
   const generateLinkButton = document.getElementById("generateLink") as HTMLButtonElement;
   const usernameInput = document.getElementById("username") as HTMLInputElement;
   const shareableLinkDisplay = document.getElementById("shareableLink") as HTMLParagraphElement;

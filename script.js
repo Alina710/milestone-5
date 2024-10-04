@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
-    // Shareable Link Generation
     var generateLinkButton = document.getElementById("generateLink");
     var usernameInput = document.getElementById("username");
     var shareableLinkDisplay = document.getElementById("shareableLink");
