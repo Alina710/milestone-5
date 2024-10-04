@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Syeda Alina's resume showcasing skills in web development including HTML, CSS, JavaScript, and TypeScript.">
+    <title>Resume</title>
+    <link rel="stylesheet" href="stylees.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="name">Syeda Alina</h1>
+        <p>Front-end Developer | Karachi, Pakistan</p>
+      </header>
+
+      <div id="resume"> <!-- Added resume ID here -->
+        <section class="objective" contenteditable="true">
+          <h2>Objective:</h2>
+          <p>"Aspiring web developer with a solid foundation in HTML, CSS, and JavaScript, currently enhancing my skills in TypeScript and Next.js through online courses. <br>
+          Eager to contribute to innovative web projects and grow in a collaborative environment."</p>
+        </section>
+
+        <div class="resume-container">
+          <div class="left-side">
+            <section class="contact-section" contenteditable="true">
+              <h2>Contact Details:</h2>
+              <p>Phone: 0340-3538006</p>
+              <p>Email: awhngsu2689@gmail.com</p>
+            </section>
+
+            <section class="education" contenteditable="true">
+              <h2>Education:</h2>
+              <p>
+                Green Flag School, Karachi
+                Completed 10th Grade with Grade A.
+                2024
+              </p>
+            </section>
+
+            <section class="skills" contenteditable="true">
+              <h2 class="sk">Skills:</h2>
+              <h3 class="lang">Languages</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Responsive Web Design</li>
+              </ul>
+              <h4 class="ui/ux">UI/UX Design:</h4>
+              <p>Basic principles of user interface and user experience design</p>
+            </section>
+
+            <section class="projects" contenteditable="true">
+              <h2>Projects:</h2>
+              <ul>
+                <li>Rock-Paper-Scissors Game</li>
+                <li>Tic-Tac-Toe</li>
+                <li>Currency Converter</li>
+                <li>AI Image Generator</li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="divider"></div>
+          
+          <div class="right-side">
+            <section class="Quizzes-section" contenteditable="true">
+              <h2>Certifications & Quizzes:</h2>
+              <p>
+                Governor House Web Development Quiz: Passed
+                Various Online Quizzes: Completed multiple quizzes to test and enhance web development skills
+              </p>
+            </section>
+
+            <section class="information" contenteditable="true">
+              <h2>Additional Information:</h2>
+              <p>
+                LinkedIn: 
+                <a class="linkedin" contenteditable="true" href="https://www.linkedin.com/in/syeda-alina-30363a2b7" target="_blank">Connect With Me On LinkedIn</a><br>
+                GitHub: <a class="G-H" contenteditable="true" href="https://www.github.com/Alina710" target="_blank">Check Out My GitHub Repository</a>
+              </p>
+            </section>
+
+            <section class="work-ex" contenteditable="true" class="work">
+              <button id="toggleWorkExperience">Show Work Experience</button>
+              <div id="workExperience" style="display: none;">
+                <h2>Work Experience</h2>
+                <h3>UI/UX Designer Intern</h3>
+                <p>XYZ Company (3 months)</p>
+                <ul>
+                  <li>Designed wireframes and prototypes for web and mobile.</li>
+                  <li>Conducted user research and usability tests.</li>
+                  <li>Improved product designs for better user experience.</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <p>"Thank you for considering my application. I look forward to the opportunity to contribute to your team."</p>
+      </div>
+
+      <div class="share-section">
+        <input type="text" id="username" placeholder="Enter your username" />
+        <button id="generateLink">Generate Shareable Link</button>
+        <p id="shareableLink"></p>
+        <button id="downloadResume">Download Resume as PDF</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  </body>
+</html>
